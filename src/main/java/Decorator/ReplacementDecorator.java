@@ -1,8 +1,8 @@
 package Decorator;
 
 public class ReplacementDecorator extends DecoratorConvertor {
-    private char from;
-    private char to;
+    private final char from;
+    private final char to;
 
     public ReplacementDecorator(Convertor convertor, char from, char to) {
         super(convertor);

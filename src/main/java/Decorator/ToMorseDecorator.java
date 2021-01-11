@@ -1,7 +1,6 @@
 package Decorator;
 
 import java.util.Hashtable;
-import java.util.Locale;
 
 public class ToMorseDecorator extends DecoratorConvertor {
     protected static Hashtable<Character,String> morse;

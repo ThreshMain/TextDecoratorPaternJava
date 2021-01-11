@@ -1,7 +1,7 @@
 package Decorator;
 
 public class CzechRemovalDecorator extends DecoratorConvertor {
-    protected String to;
+    protected final String to;
 
     public CzechRemovalDecorator(Convertor convertor) {
         this(convertor, "-");

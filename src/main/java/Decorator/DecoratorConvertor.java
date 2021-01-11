@@ -1,7 +1,7 @@
 package Decorator;
 
 public class DecoratorConvertor implements Convertor{
-    protected Convertor convertor;
+    protected final Convertor convertor;
 
     protected DecoratorConvertor(Convertor convertor)
     {
